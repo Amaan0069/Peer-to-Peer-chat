@@ -54,7 +54,9 @@ cd demo-project
 
 
 # Backend Setup
+
 - The backend is a Node.js/Express application located in the backend directory.
+
   
 **1. Navigate to the backend directory**
      ```
