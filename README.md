@@ -25,50 +25,50 @@
 
 Follow the steps below to get started with this project.
 
-### 1. Clone the repository
+# 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/demo-project.git
 ```
-### Navigate into the project directory
+#2. Navigate into the project directory
 ```
 cd demo-project
 ```
 ### Frontend Setup
 -The frontend is built with React and is located in the frontend directory.
-# Navigate to the frontend directory
+#1. Navigate to the frontend directory
    ```
       cd frontend
    ```
-# Install the dependencies
+#2. Install the dependencies
    ```
    npm install
    ```
-# Run the frontend development server
+#3. Run the frontend development server
    ```
    npm run dev
 ```
 This will start the development server, and you can access the frontend at http://localhost:5173 (or the URL specified in your terminal).
 
 
-# Backend Setup
+### Backend Setup
 - The backend is a Node.js/Express application located in the backend directory.
 # Navigate to the backend directory
      ```
      cd ../backend
      ```
-# Install the dependencies
+#1. Install the dependencies
    ```
       npm install
    ```
-#  Set up environment variables
+#2. Set up environment variables
 - In the backend directory, create a .env file and configure the necessary environment variables. Here is an example of what your .env file might look like:
 - ```
    PORT=5000
    DB_URI=mongodb://localhost:27017/demo-db
    JWT_SECRET=yourSecretKey
   ```
-# Run the backend server
+#3. Run the backend server
    ```
    npm start
    ```
@@ -118,4 +118,4 @@ Demo
    └─ vite.config.js           # Vite configuration file
 ```
 
-### For more details : https://drive.google.com/file/d/1r6FMWWxQF6uS4b2Dgimpy7TwdMB2EfsC/view?usp=drive_link
+# For more details : https://drive.google.com/file/d/1r6FMWWxQF6uS4b2Dgimpy7TwdMB2EfsC/view?usp=drive_link
