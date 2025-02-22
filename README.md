@@ -50,7 +50,7 @@ cd demo-project
    ```
 
 
- 3. Run the frontend development server
+**3.Run the frontend development server**
    ```
    npm run dev
 ```
@@ -78,7 +78,7 @@ cd demo-project
 **3. Set up environment variables**
     
 - In the backend directory, create a .env file and configure the necessary environment variables. Here is an example of what your .env file might look like:
-- ```
+  ```
    PORT=5000
    DB_URI=mongodb://localhost:27017/demo-db
    JWT_SECRET=yourSecretKey
