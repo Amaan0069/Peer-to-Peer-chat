@@ -40,7 +40,7 @@ cd demo-project
 
  **1. Navigate to the frontend directory**
    ```
-      cd frontend
+   cd frontend
    ```
 
 
@@ -70,7 +70,7 @@ The backend is a Node.js/Express application located in the backend directory.<b
      
 **2. Install the dependencies**
    ```
-      npm install
+    npm install
    ```
 
 **3. Set up environment variables**
