@@ -29,19 +29,93 @@ Follow the steps below to get started with this project.
 
 ```bash
 git clone https://github.com/yourusername/demo-project.git
-
+```
+### Navigate into the project directory
+```
 cd demo-project
-
-npm install
-
-npm install
-
+```
+### Frontend Setup
+-The frontend is built with React and is located in the frontend directory.
+# Navigate to the frontend directory
+   ```
+      cd frontend
+   ```
+# Install the dependencies
+   ```
+   npm install
+   ```
+# Run the frontend development server
+   ```
+   npm run dev
 ```
 This will start the development server, and you can access the frontend at http://localhost:5173 (or the URL specified in your terminal).
 
+
 # Backend Setup
 - The backend is a Node.js/Express application located in the backend directory.
-  1. Navigate to the backend directory
+# Navigate to the backend directory
      ```
      cd ../backend
      ```
+# Install the dependencies
+   ```
+      npm install
+   ```
+#  Set up environment variables
+- In the backend directory, create a .env file and configure the necessary environment variables. Here is an example of what your .env file might look like:
+- ```
+   PORT=5000
+   DB_URI=mongodb://localhost:27017/demo-db
+   JWT_SECRET=yourSecretKey
+  ```
+# Run the backend server
+   ```
+   npm start
+   ```
+This will start the backend server, and you can access it at http://localhost:5000.
+
+```
+Demo
+├─ backend
+│  ├─ .env                     # Environment variables for backend
+│  ├─ configuration
+│  │  └─ db.js                 # Database configuration
+│  ├─ index.js                 # Main entry point for the backend
+│  ├─ models
+│  │  ├─ Message.js            # Message model
+│  │  └─ User.js               # User model
+│  ├─ package-lock.json
+│  ├─ package.json             # Backend dependencies
+│  └─ sockets
+│     └─ index.js              # WebSocket server
+└─ frontend
+   ├─ eslint.config.js         # ESLint configuration
+   ├─ index.html               # Main HTML file for React
+   ├─ package-lock.json
+   ├─ package.json             # Frontend dependencies
+   ├─ public
+   │  └─ vite.svg              # Vite logo
+   ├─ README.md                # Project overview
+   ├─ src
+   │  ├─ App.css               # Main CSS file for the frontend
+   │  ├─ App.jsx               # Main React component
+   │  ├─ assets
+   │  │  ├─ Banner.jpg         # Banner image
+   │  │  └─ react.svg          # React logo image
+   │  ├─ Components
+   │  │  ├─ Auth
+   │  │  │  ├─ Login.jsx       # Login component
+   │  │  │  └─ Signup.jsx      # Signup component
+   │  │  └─ Message
+   │  │     ├─ Message.jsx     # Message component
+   │  │     ├─ MessageLayout.jsx # Layout for messages
+   │  │     ├─ MessageWindow.jsx # Window to display messages
+   │  │     └─ Users.jsx       # Display user list
+   │  ├─ Context
+   │  │  └─ WebSocket.jsx      # WebSocket context for frontend
+   │  ├─ index.css             # Global CSS
+   │  └─ main.jsx              # Entry point for React
+   └─ vite.config.js           # Vite configuration file
+```
+
+### For more details : https://drive.google.com/file/d/1r6FMWWxQF6uS4b2Dgimpy7TwdMB2EfsC/view?usp=drive_link
