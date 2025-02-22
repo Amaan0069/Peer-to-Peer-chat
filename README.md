@@ -8,3 +8,40 @@
 - Additionally, the application features an online status indicator, which displays a green badge next to a user’s name when they are active and available for communication. This functionality enhances user -         experience by providing real-time visibility into the availability of contacts.
 
 - The P2P Chat Application integrates advanced socket programming, networking principles, and intuitive user interface design to deliver a robust and efficient messaging solution. It is an ideal platform for users    seeking a secure, private, and decentralized communication tool.
+
+# Workflow:
+
+- A user registers and logs into the application.
+
+- The user searches for another user using their email or phone number.
+
+- A direct TCP connection is established between the two peers.
+
+- Messages are sent and received in real-time.
+
+- If a recipient is offline, messages are stored in a local queue and delivered when they come online.
+
+## Installation
+
+Follow the steps below to get started with this project.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/demo-project.git
+
+cd demo-project
+
+npm install
+
+npm install
+
+```
+This will start the development server, and you can access the frontend at http://localhost:5173 (or the URL specified in your terminal).
+
+# Backend Setup
+- The backend is a Node.js/Express application located in the backend directory.
+  1. Navigate to the backend directory
+     ```
+     cd ../backend
+     ```
