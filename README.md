@@ -1,4 +1,4 @@
- Overview:
+# Peer-to-Peer Real-Time Chat Application
 
 The Peer-to-Peer (P2P) Chat Application is a decentralized messaging platform designed to facilitate direct communication between users without the need for a central server. By eliminating reliance on intermediary servers, the application ensures enhanced privacy, security, and user control. Messages are transmitted directly between users via TCP sockets, enabling real-time communication while maintaining data integrity.
 
