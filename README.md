@@ -65,9 +65,8 @@ The backend is a Node.js/Express application located in the backend directory.<b
 
 **1. Navigate to the backend directory**
 
-     ```
      cd ../backend
-     ```
+
      
 **2. Install the dependencies**
    ```
