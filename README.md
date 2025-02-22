@@ -55,6 +55,7 @@ cd demo-project
 
 # Backend Setup
 - The backend is a Node.js/Express application located in the backend directory.
+- 
 **1. Navigate to the backend directory**
      ```
      cd ../backend
@@ -63,7 +64,7 @@ cd demo-project
    ```
       npm install
    ```
-** 3. Set up environment variables**
+**3. Set up environment variables**
     
 - In the backend directory, create a .env file and configure the necessary environment variables. Here is an example of what your .env file might look like:
 - ```
