@@ -42,14 +42,19 @@ cd demo-project
    ```
       cd frontend
    ```
+
+
  **2. Install the dependencies**
    ```
    npm install
    ```
+
+
  3. Run the frontend development server
    ```
    npm run dev
 ```
+
 **This will start the development server, and you can access the frontend at http://localhost:5173 (or the URL specified in your terminal)**.
 
 
@@ -62,10 +67,14 @@ cd demo-project
      ```
      cd ../backend
      ```
+
+     
 **2. Install the dependencies**
    ```
       npm install
    ```
+
+
 **3. Set up environment variables**
     
 - In the backend directory, create a .env file and configure the necessary environment variables. Here is an example of what your .env file might look like:
@@ -74,10 +83,13 @@ cd demo-project
    DB_URI=mongodb://localhost:27017/demo-db
    JWT_SECRET=yourSecretKey
   ```
+
+  
  **4. Run the backend server**
    ```
    npm start
-   ```
+   ````
+
 **This will start the backend server, and you can access it at http://localhost:5000.**
 
 ```
